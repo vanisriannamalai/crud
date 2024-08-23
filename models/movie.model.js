@@ -1,7 +1,6 @@
 import { Schema,model } from "mongoose";
 //write the schema
 const schema=new Schema({
-    title:String,
     desc:String
 })
 
