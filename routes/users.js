@@ -9,6 +9,7 @@ import
 } from "../controllers/movie.controllers.js";
 
 const router=express.Router();
+
 router.get("/",MovieIndex);
 router.get("/",MovieCreate);
 router.put("/:id",MovieUpdate);

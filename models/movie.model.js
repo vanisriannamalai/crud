@@ -14,6 +14,6 @@ const schema=new Schema({
 });
 
 //create your model
-const Movie=model("Movie", schema);
+const Movie=model("Movie",schema);
 
 export default Movie;
