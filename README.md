@@ -9,5 +9,7 @@ Provide a main api for reactjs app
 5.`git commit "your MSG"("init")`
 6.`git pus -u origin maaster` or `git push`
 
-
+##Database options
+1.SQL-(MySQL,MariaDB,PostgreSQL)
+2.NoSQL-(MongoDB)
 
