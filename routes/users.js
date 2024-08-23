@@ -6,7 +6,7 @@ import
     MovieUpdate,
     MovieDelete,
     MovieDetails
-} from "../controllers/movie.controller.js";
+} from "../controllers/movie.controllers.js";
 
 const router=express.Router();
 router.get("/",MovieIndex);

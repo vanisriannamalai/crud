@@ -1,4 +1,4 @@
-import Movie from "../moedls/movie.model.js";
+import Movie from "../models/movie.model.js";
 
 export const MovieIndex=async(req,res)=>{
     try{
