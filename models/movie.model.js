@@ -1,10 +1,19 @@
 import { Schema,model } from "mongoose";
+
 //write the schema
 const schema=new Schema({
-    desc:String
-})
+    title:{
+        type:String,
+        required:true,
+        unique:true
+    },
+    desc:{
+        type:String,
+        required:true
+    },  
+});
 
 //create your model
-const movie=model("Movie schema");
+const Movie=model("Movie", schema);
 
-export default movie;
+export default Movie;
