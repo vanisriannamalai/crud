@@ -11,9 +11,9 @@ import
 const router=express.Router();
 
 router.get("/",MovieIndex);
-router.get("/",MovieCreate);
+router.post("/",MovieCreate);
 router.put("/:id",MovieUpdate);
-router.get("/:id",MovieDelete);
+router.delete("/:id",MovieDelete);
 router.get("/:id",MovieDetails);
 
 export default router;
