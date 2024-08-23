@@ -9,6 +9,5 @@ Provide a main api for reactjs app
 5.`git commit "your MSG"("init")`
 6.`git pus -u origin maaster` or `git push`
 
-vanisri026
-Yam1DzDTRkl2Bsc5
+
 
